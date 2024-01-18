@@ -31,3 +31,4 @@ cmake -G  "Unix Makefiles" ../${ISHODNIKI_DIR}
 Verbose=1 make -j 8
 #  Verbose=1 make   то компиляция будет сопровождаться очень подробной информацией что делается!!!
 #  https://cmake.org/cmake/help/git-master/genindex.html#A        это документация по cmake
+

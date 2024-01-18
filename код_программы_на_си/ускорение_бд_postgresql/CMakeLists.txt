@@ -52,7 +52,7 @@ include_directories(/lib/x86_64-linux-gnu) 	# для многопоточнос�
 
 
 # ПЕРВОЕ имя должно быть именем из предыдущей строки(от main.c)
-target_link_libraries(${PROJECT_NAME} PUBLIC modul_nagruzka modul_predstart zaprosi_in_db vhodn_dannie obrobotka_error modul_potoki system_comand files_work ${PostgreSQL_LIBRARIES} ${CMAKE_THREAD_LIBS_INIT} ) # Threads::Threads
+target_link_libraries(${PROJECT_NAME} PUBLIC modul_predstart zaprosi_in_db vhodn_dannie obrobotka_error modul_potoki system_comand files_work modul_nagruzka ${PostgreSQL_LIBRARIES} ${CMAKE_THREAD_LIBS_INIT} ) # Threads::Threads
 	# для библиотеки PostgreSQL (самый последний в списке файлов в строчке выше) так же можно указать = pq -> это библиотека запросов для pq-fe.h   =	 target_link_libraries(${PROJECT_NAME} PUBLIC zaprosi_in_db ... pq) # где pq это библиотека запросов для pq-fe.h
 
 
