@@ -61,18 +61,18 @@
 # Что получилось:
 
 Однопоточный режим, выборка из БД по 165 акциям для генерации 11 таймфрэймов: 
-![Однопоточный режим, выборка из БД по 165 акциям для генерации 11 таймфрэймов](https://github.com/OTUS-2023-C01-SARTAKOV-AP/proekt_nagruzka_PC/blob/main/img/th_1__gen_tf.png)
+![Однопоточный режим, выборка из БД по 165 акциям для генерации 11 таймфрэймов](https://github.com/OTUS-2023-C01-SARTAKOV-AP/proekt_mmvb_analiz/blob/main/img/th_1__gen_tf.png)
 
 <p> &nbsp; </p> 
 
 Выборка в 12 потоков из БД по 165 акциям для генерации 11 таймфрэймов: 
-![Выборка в 12 потоков из БД по 165 акциям для генерации 11 таймфрэймов](https://github.com/OTUS-2023-C01-SARTAKOV-AP/proekt_nagruzka_PC/blob/main/img/th_12__gen_tf.png)
+![Выборка в 12 потоков из БД по 165 акциям для генерации 11 таймфрэймов](https://github.com/OTUS-2023-C01-SARTAKOV-AP/proekt_mmvb_analiz/blob/main/img/th_12__gen_tf.png)
 
 <p> &nbsp; </p> 
 <p> &nbsp; </p> 
 
 Схема взаимодействия компьютеров/блоков в данном проекте:
-![Схема взаимодействия компьютеров/блоков в данном проекте:](https://github.com/OTUS-2023-C01-SARTAKOV-AP/proekt_nagruzka_PC/blob/main/img/schema.png)
+![Схема взаимодействия компьютеров/блоков в данном проекте:](https://github.com/OTUS-2023-C01-SARTAKOV-AP/proekt_mmvb_analiz/blob/main/img/schema.png)
 
 
 <p> &nbsp; </p> 
